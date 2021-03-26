@@ -150,6 +150,6 @@
     <color name="darkgreen">#006400</color><!--暗綠色 -->
     <color name="blue">#0000FF</color><!--藍色 -->
     <color name="mediumblue">#0000CD</color><!--中蘭色 -->
-    <color name="darkblue">#XXXXXXX</color><!--暗藍色 -->
+    <color name="darkblue">#OOOOOOO</color><!--暗藍色 -->
 
 </resources>
