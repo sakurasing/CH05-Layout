@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    tools:context=".M0501">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/m0501_t001"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0501_t001"
+            android:textColor="@color/Navy"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/m0501_s001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/m0501_a001"
+            android:spinnerMode="dialog" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/m0501_t002"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0501_t002"
+            android:textColor="@color/Navy"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/m0501_e001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="end"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/m0501_b01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/Yellow"
+        android:text="@string/m0501_b001"
+        android:textColor="@color/Red"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/m0501_t003"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0501_t003"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/m0501_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/m0500_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="end"
+            android:text="20號楊雅婷"
+            android:textColor="@color/Blue"
+            android:textSize="30sp" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_001">地圖</string>
+    <string name="menu_002">口罩地圖</string>
+    <string name="prompt_select_location">請選擇地點</string>
+    <string name="txtOutput">顯示目前位置</string>
+    <string name="txtOutput_hint">狀態</string>
+    <string name="tNavigation">路徑規劃</string>
+</resources>

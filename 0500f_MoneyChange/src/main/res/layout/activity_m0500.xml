@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context=".M0500">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Purple">
+
+        <TextView
+            android:id="@+id/m0500_t001"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Aqua"
+            android:text="美金"
+            android:textColor="@color/Navy"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/m0500_e001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/m0500_e001"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/m0500_b01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/Yellow"
+        android:text="執行匯率換算"
+        android:textColor="@color/Red"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Purple">
+
+        <TextView
+            android:id="@+id/m0500_t002"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Aqua"
+            android:text="台幣"
+            android:textColor="@color/Navy"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/m0500_t003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="end"
+            android:text="0"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/m0500_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="end"
+            android:text="@string/MyName"
+            android:textColor="@color/Blue"
+            android:textSize="30sp" />
+    </TableRow>
+
+</LinearLayout>

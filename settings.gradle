@@ -1,0 +1,6 @@
+include ':1709c_GMapJS_trace'
+include ':0504_ScrollView'
+include ':0500d_Converter'
+include ':0501_Marrisug'
+include ':0500f_MoneyChange'
+rootProject.name = "CH05-Layout"
